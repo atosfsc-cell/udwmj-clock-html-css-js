@@ -1,0 +1,53 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Source Code Pro" , monospace;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+body{
+    height: 100vh;
+    background: linear-gradient(120deg, #F2BC79, #D9304F);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Relogio{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 200px;
+    width: 550px;
+    background: transparent;
+    border-radius: 6px;
+    box-shadow: 1 px 8px 10 px rgb(36, 33, 33);
+}
+
+.Relogio div{
+    height: 170px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #BFBFBF;
+    background: rgba(161, 27, 27, 0.74);
+    box-shadow: 5px 5px 15px rgba(100, 33, 33, 0.658);
+    border-radius: 1px;
+    letter-spacing: 1px;
+}
+
+.Relogio span{
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.Relogio span.tempo{
+    font-size: 8px;
+}
